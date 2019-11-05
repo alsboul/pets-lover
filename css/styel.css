@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(170, 110, 50);
+}
+h1 {
+    color: rgb(200, 10, 11);
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color:#fff;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+ img {
+    width: 350px;
+    height: 300px;
+} 
+#this {
+    width:200px;
+    height: 250px;
+}
+article section h2 {
+    color: hsl(120, 90%, 10%);
+}
+
+footer{
+    background-color: red;
+}
+footer p{
+    color: khaki;
+    text-align: center;
+    padding: 30px;
+} 
