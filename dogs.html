@@ -7,6 +7,30 @@
 </head>
 
 <body>
+    <script src="js/c01.js"></script>
+    <button onclick="mypage()">click here</button>
+
+    <script>
+        function mypage() {
+            alert("Wellcom to my page");
+        }
+    </script>
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var txt;
+            var person = prompt("Please enter your name:", "Here");
+            if (person == null || person == "") {
+                txt = "User cancelled the prompt.";
+            } else {
+                txt = "Hello " + person + "! How are you today?";
+            }
+            document.getElementById("demo").innerHTML = txt;
+        }
+    </script>
     <header>
         <h1>Dog lovers</h1>
         <nav>
@@ -18,12 +42,11 @@
         </nav>
 
     </header>
+
     <main>
         <article>
             <section>
-                <img id="my_dog"
-                    src="https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313__340.jpg"
-                    alt="dog">
+                <img id="my_dog" src="https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313__340.jpg" alt="dog">
             </section>
             <section>
                 <img id="this"
